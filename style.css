@@ -10,7 +10,7 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 /** First item **/
 .nav-logo {
@@ -152,4 +152,35 @@ span{
 .nav-cart{
   font-size: 0.85rem;
   font-weight: 700;
+}
+
+/** Panel **/
+.panel{
+  height: 40px;
+  background-color: #232f3e;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content:flex-start;
+  padding-left: 21px;
+  
+}
+.panel-all{
+  font-weight: 550;
+}
+.panel-ops{
+  width: 70%;
+  font-size: 0.85rem;
+    font-weight: 520;
+
+}
+.panel-ops p{
+  
+  display: inline;
+  margin-left: 15px;
+}
+.panel-deals{
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-left: 210px;
 }
