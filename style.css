@@ -243,3 +243,17 @@ span{
   color:#C7511F;
   cursor: pointer;
 }
+
+/* footer */
+
+.foot-panel{
+background-color: #232F3E;
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.85rem;
+font-family: Arial, Helvetica, sans-serif;
+
+}
